@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="questionbox">
+            <h2 id="sawal">This is a sample question</h2>
+            <div class="vertical">
+                <input type="radio" class="option" id="option1" name="choice" value="a">
+                <label for="option1" >Option 1 </label>
+            </div>
+            <div class="vertical">
+                <input type="radio" class="option" id="option2" name="choice" value="b">
+                <label for="option2">Option 2 </label>
+            </div>
+            <div class="vertical">
+                <input type="radio" class="option" name="choice" id="option3"value="c">
+                <label for="option3">Option 3 </label>
+            </div>
+            <div class="vertical">
+                <input type="radio" class="option" id="option4" name="choice" value="d">
+                <label for="option4">Option 4</label>
+            </div>
+            <button class="btn" onclick="submitTest()">
+                Submit
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
